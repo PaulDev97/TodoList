@@ -23,6 +23,10 @@ export const taskListSlice = createSlice({
       
       return state.filter((item) => item.id !== idItem)
 
+    },
+
+    deleteAll: (state) => {
+      return state = []
     }
     
   }
@@ -35,7 +39,8 @@ export const taskListSlice = createSlice({
 
 export const {
   addTask,
-  deleteTask
+  deleteTask,
+  deleteAll,
 } = taskListSlice.actions
 
 export default taskListSlice.reducer;

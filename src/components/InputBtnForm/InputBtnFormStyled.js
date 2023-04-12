@@ -44,3 +44,22 @@ export const BtnSubmitForm = styled.button `
   }
   
 `
+
+
+export const DeleteAllBtnStyled = styled.button `
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 12px;
+  padding: 12px 10px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: rgba(246, 71, 71);
+  }
+`
