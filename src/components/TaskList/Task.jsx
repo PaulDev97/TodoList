@@ -9,7 +9,6 @@ const Task = () => {
 
   const tasks = useSelector(state=> state.tasks)
 
-  console.log(tasks)
   const dispatch = useDispatch()
 
   const deleteTasks = (id) => {
